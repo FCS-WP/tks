@@ -1,0 +1,18 @@
+.custom-slider {
+    .swiper-slide {
+        height: 100% auto;
+    }
+    .swiper-slide-inner {
+        img {
+            height: 500px;
+            object-fit: cover;
+            @media (max-width: 728px) {
+                height: auto;
+            }
+        }
+        
+    }
+}
+.sldr-socials {
+    display: none;
+}
